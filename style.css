@@ -49,6 +49,12 @@
     width: 50%
 }
 
+.actionStyle h1 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937
+}
+
 .actionStyle p {
     font-size: 12px;
 }
@@ -65,26 +71,38 @@
 .header {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .header .logo {
-    flex: 2
-}
-
-.header .button {
     flex: 1;
 }
 
-.buttonStyle {
-    background-color: #3882F6;
-    border-radius: 25px;
+.logo h1 {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.header .button {
+    flex: 2;
+}
+
+.tablink {
+    background-color: #1F2937;
     color: white;
-    width: 5em;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
 }
 
 .mainTextStyle {
     display: flex;
+    align-items: center;
+    justify-content: "space-between"
 }
 
 .mainTextStyle .titleStyle {
@@ -93,4 +111,28 @@
 
 .mainTextStyle .img {
     flex: 1;
+}
+
+.titleStyle h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.titleStyle p {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.buttonStyle {
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
