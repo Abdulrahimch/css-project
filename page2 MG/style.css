@@ -1,0 +1,80 @@
+@font-face {
+    font-family: RobotoLightItalic;
+    src: url(fonts/Roboto-LightItalic.ttf) format('truetype')
+}
+
+.root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: 'center'
+    
+}
+
+.first {
+    background-color: #0d2a1f;
+    flex: 5;
+    padding: 50px;
+    width: 100%
+}
+
+.tablink {
+    background-color: #052c1a;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+    
+}
+
+.logo{
+    color: white;
+    
+}
+
+.titleStyle h1 {
+color: rgb(6, 38, 27);
+}
+
+.mainTextStyle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    padding: 150px;
+    height: auto;
+    width: 100%;
+    
+}
+
+.mainTextStyle .img {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    float: right;       
+} 
+
+.Dublin {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center ;
+  
+}
+
+.Dublin .img {
+    width: 300px;
+    height: auto;
+    padding: 1;
+   display: column;
+   margin: 10%;
+}
+
+.Dublin p {
+    align-items: right;
+    display: flex;
+}
