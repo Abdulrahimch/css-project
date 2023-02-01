@@ -39,7 +39,7 @@
     display: flex;
 }
 
-.root .desc {
+.highlights .desc {
     flex: 1;
     width: 75%;
     background-color: #E5E7EB;
@@ -92,3 +92,24 @@
     width: 25%;
 }
 
+.desc .descContainer {
+    padding: 50px
+}
+
+.highlights {
+    display: flex; 
+    padding: 20px; 
+    background-color: #3882F6; 
+    justify-content: center; 
+    align-items: center;
+    width: 50%
+}
+
+.footer {
+    flex: 1;
+    background-color: #1F2937;
+    margin: 50px;
+    width: 75%;
+    text-align: center;
+    margin-bottom: 15px;
+}
