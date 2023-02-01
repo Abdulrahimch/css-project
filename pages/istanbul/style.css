@@ -1,0 +1,94 @@
+@font-face {
+    font-family: RobotoLightItalic;
+    src: url(../../fonts/Roboto-LightItalic.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: RobotoBoldItalic;
+    src: url(../../fonts/Roboto-BoldItalic.ttf) format('truetype');
+}
+
+.root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.root .backgroundImgContainer {
+    flex: 2;
+    width: 75%;
+}
+
+.backgroundImg {
+    width: 100%; 
+    height: 300px
+}
+
+.otherImages .img {
+    flex: 1;
+    width: 125px;
+    height: 125px;
+    margin: 10px
+}
+
+.root .otherImages {
+    flex: 1;
+    width: 75%;
+    display: flex;
+}
+
+.root .desc {
+    flex: 1;
+    width: 75%;
+    background-color: #E5E7EB;
+    margin: 50px;
+    font-family: 'RobotoLightItalic', sans-serif;
+    font-size: 36px;
+}
+
+.listElement {
+    font-family: 'RobotoLightItalic', sans-serif;
+}
+
+.desc .title {
+    font-weight: 25;
+    text-transform: uppercase;
+    font-family: 'RobotoBoldItalic', sans-serif;
+}
+
+.headerContainer{
+    background-color: #1F2937;
+    flex: 5;
+    padding: 50px;
+    width: 75%;
+    margin: 25px
+}
+
+.root .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .title {
+    flex: 2;
+}
+
+.header .button {
+    flex: 1;
+}
+
+.tablink {
+    background-color: #1F2937;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
